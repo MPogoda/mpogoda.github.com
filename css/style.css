@@ -1,6 +1,6 @@
 body {
   font-family:  monospace;
-  font-size:    large;
+  font-size:    x-large;
   width:        25em;
   margin-top:   0.5em;
   margin-left:  auto;
@@ -12,18 +12,48 @@ h1 {
   font-size:      150%;
   font-weight:    bold;
   text-align:     center;
-  border-bottom:  0.1em solid #000;
-  padding-bottom: 0.5em;
-  margin-bottom:  0.5em;
 }
 
-#contacts {
-  margin-left:  auto;
-  margin-right: auto;
+hr {
+  height:           15px;
+  background-image: url(../img/hash.png);
+  border:           0px;
 }
-#contacts td {
+
+h2 {
+  font-size:      120%;
+  text-align:     center;
+  margin-bottom:  1em;
+}
+
+dt {
+  font-size:    large;
+  font-variant: small-caps;
+  margin-left:  0.5em;
+}
+dt:hover {
+  color:  #2020a0;
+}
+
+dd {
+  font-size:  medium;
+  color:      #606060;
+  margin-left:  3em;
+}
+dd:hover {
+  color:      #303090;
+}
+
+table {
+  margin-left:    auto;
+  margin-right:   auto;
+  margin-bottom:  1em;
+  margin-top:     1em;
+}
+td {
   padding: 0em 0.5em;
 }
-#contacts img {
-  height: 36px;
+img {
+  height: 48px;
+  width:  48px;
 }
