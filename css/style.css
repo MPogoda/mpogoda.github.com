@@ -1,0 +1,29 @@
+body {
+  font-family:  monospace;
+  font-size:    large;
+  width:        25em;
+  margin-top:   0.5em;
+  margin-left:  auto;
+  margin-right: auto;
+  text-align:   left;
+}
+
+h1 {
+  font-size:      150%;
+  font-weight:    bold;
+  text-align:     center;
+  border-bottom:  0.1em solid #000;
+  padding-bottom: 0.5em;
+  margin-bottom:  0.5em;
+}
+
+#contacts {
+  margin-left:  auto;
+  margin-right: auto;
+}
+#contacts td {
+  padding: 0em 0.5em;
+}
+#contacts img {
+  height: 36px;
+}
